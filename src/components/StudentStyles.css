@@ -1,0 +1,81 @@
+.how {
+    padding-left: 25px;
+    font-size: 28px;
+}
+
+.for {
+    font-family: Roboto;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.avatar {
+    height: 220px;
+    width: 240px;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.i-container {
+    display: flex;
+}
+
+.code {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 4rem;
+}
+
+.learn {
+    display: flex;
+    justify-content: end;
+}
+
+.more {
+    text-decoration: underline;
+    padding-right: 10px;
+}
+@media screen and (max-width:600px) {
+    .how {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    
+    .for {
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    
+    .avatar {
+        height: 90px;
+        width: 100px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    
+    .i-container {
+        display: flex;
+    }
+    
+    .code {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.2rem;
+    }
+    
+    .learn {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .more {
+        text-decoration: underline;
+        padding-right: 5px;
+    }
+
+    
+}

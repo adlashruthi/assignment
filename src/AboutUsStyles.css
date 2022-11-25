@@ -1,0 +1,222 @@
+.a-container {
+    display: flex;
+
+}
+.about {
+    padding-left: 10px;
+    font-family: sans;
+    font-size: 30px;
+
+}
+.about-para {
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Roboto;
+    padding-right: 6px;
+}
+
+.about-image {
+    width: 80vw;
+    height: 60vh;
+    
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 130px;
+    border-top-right-radius: 130px;
+    border-top-left-radius: 130px;
+    
+}
+
+.browse {
+    font-size: 2.3rem;
+    margin-top: 15px;
+    padding-left: 16px;
+    font-family: sans;
+}
+.am {
+    padding-left: 16px;
+    font-family: "roboto";
+}
+.circle {
+    font-size: 2.4rem;
+    padding-left: 5px;
+    margin: 0px;
+    
+}
+.fic {
+    padding-left: 5px;
+    margin: 0px;
+}
+.student-container {
+    display: flex;
+}
+.student {
+    font-family: "roboto";
+    font-size: 20px;
+
+}
+.teacher {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.background {
+    background-color: black;
+    height: 70px;
+    border-radius: 8px;
+    padding-right: 17px;
+    border-radius: 28px;
+    width: 45%;
+}
+.background1 {
+    background-color: rgb(188, 173, 173);
+    height: 70px;
+    border-radius: 8px;
+    padding-right: 17px;
+    border-radius: 28px;
+    width: 45%;
+    padding-right: 10px;
+}
+
+.i {
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0px;
+    
+}
+.color-container {
+    display: flex;
+    justify-content: end;
+}
+.line {
+    color: rgb(252, 247, 247);
+    
+    height: 2px;
+    background-color: aliceblue;
+    font-weight: bold;
+    margin-top: 0px;
+    width:95%;
+    text-align: end;
+    margin-right: 3px;
+   
+}
+.teacher-container {
+    display: flex;
+    justify-content: space-between;
+}
+.sub {
+    padding-left: 95px;
+    font-size: 20px;
+}
+.grade {
+    text-align: center;
+    margin-right: 40%;
+    font-size: 20px;
+}
+@media screen and (max-width:600px) {
+    .about {
+        padding-left: 10px;
+        font-family: sans;
+        font-size: 22px;
+    
+    }
+    .about-para {
+        padding-left: 5px;
+        font-size: 12px;
+        font-family: Roboto;
+        
+    }
+    .about-image {
+        width: 40vw;
+        height: 40vh;
+        
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 130px;
+        border-top-right-radius: 130px;
+        border-top-left-radius: 130px;
+        
+    }
+    .browse {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        padding-left: 10px;
+        font-family: sans;
+    }
+    .am {
+        padding-left: 16px;
+        font-family: "roboto";
+    }
+    .circle {
+        font-size: 2rem;
+        padding-left: 5px;
+        margin: 0px;
+        
+    }
+    .fic {
+        padding-left: 5px;
+        margin: 0px;
+    }
+    .student-container {
+        display: flex;
+    }
+    .student {
+        font-family: "roboto";
+        font-size: 15px;
+    
+    }
+    .teacher {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .background {
+        background-color: black;
+        height: 70px;
+        border-radius: 8px;
+        padding-right: 17px;
+        border-radius: 28px;
+        width: 45%;
+    }
+    .background1 {
+        background-color: rgb(188, 173, 173);
+        height: 70px;
+        border-radius: 8px;
+        padding-right: 17px;
+        border-radius: 28px;
+        width: 45%;
+        padding-right: 10px;
+    }
+    
+    .i {
+        color: white;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 0px;
+        
+    }
+    .color-container {
+        display: flex;
+        justify-content: end;
+    }
+    .line {
+        color: rgb(252, 247, 247);
+        
+        height: 2px;
+        background-color: aliceblue;
+        font-weight: bold;
+        margin-top: 0px;
+        width:45%;
+        text-align: end;
+        margin-right: 3px;
+       
+    }
+    .sub {
+        padding-left: 35px;
+        font-size: 15px;
+    }
+    .grade {
+        text-align: center;
+        margin-right: 20%;
+        font-size: 15px;
+    }
+
+    
+}
